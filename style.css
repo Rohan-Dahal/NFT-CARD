@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Outfit;
+}
+body{
+    height:600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+
+}
+#box{
+    border: 1px solid hsl(216, 50%, 16%);
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+    width:260px;
+    height:420px;
+}
+img{
+    background-size: cover;
+    border-radius: 5px;
+    height:199px;
+    width:230px;
+    margin-left:15px;
+    margin-right: 15px;
+    margin-top:15px;
+    
+}
+h3{
+    margin-left:15px;
+    margin-top:13px;
+    color:white
+}
+.text-description{
+    color: hsl(215, 51%, 70%)
+}
+p{
+    margin-left:14px;
+    margin-top:13px;
+    font-size: 14px;
+    font-weight: 300;
+}
+hr{
+    width:220px;
+    opacity: 0.1;
+    margin-left: 15px;
+}
+#eth{
+    height: 14px;
+    width: 8px;
+}
+#icons{
+    display: flex;
+    height:50px;
+}
+#clock{
+    height: 15px;
+    width: 15px;
+}
+#price{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    width: 130px;
+}
+#num{
+    margin-left: -9px;
+    margin-right:-5px;
+    font-weight:600;
+}
+#text{
+    margin-left: -9px;
+    color:hsl(215, 51%, 70%)
+}
+#icon{
+display: flex;
+align-items: center;
+}
+#man{
+ height:30px;
+ width:30px;
+ border:1px solid white;
+ border-radius: 50%;
+}
+#manname{
+    margin-left:-5px;
+    margin-top:15px;
+    color: white;
+    font-weight: 400;
+}
+span{
+    color: hsl(215, 51%, 70%);   
+}
+#manname:hover{
+    color:cyan;
+    cursor: pointer;
+}
+h3:hover{
+    color: cyan;
+    cursor: pointer;
+}
+.view-img{
+    height:199px;
+    width:230px;
+    position:absolute; 
+   top:15px;
+left:15px;
+     display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: cyan;
+    border-radius: 5px;
+    
+    opacity: 0;    
+}
+#view{
+    height: 40px;
+    width: 40px;
+}
+.view-img:hover{
+    opacity:0.7;
+}
+#view:hover{
+    cursor: pointer;
+    transform:scale(1.5,1.5)
+}
+#imagebox{
+    
+    position: relative;
+    
+
+}
